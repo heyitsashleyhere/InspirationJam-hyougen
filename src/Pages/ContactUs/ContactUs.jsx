@@ -79,12 +79,12 @@ export default function ContactUs() {
               <form onSubmit={handleSubmit}>
                 <Grid container spacing={2}>
                   <>
-                    <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half formData={formData}/>
-                    <Input name="lastName" label="Last Name" handleChange={handleChange} autoFocus half formData={formData}/>
+                    <Input name="firstName" label="First Name" handleChange={handleChange}  half formData={formData}/>
+                    <Input name="lastName" label="Last Name" handleChange={handleChange}  half formData={formData}/>
                   </>
-                  <Input name="companyName" label="Company Name" handleChange={handleChange} type="text" autoFocus formData={formData}/>
-                  <Input name="email" label="Email" handleChange={handleChange} type="email" autoFocus formData={formData}/>
-                  <Input name="phone" label="Phone Number" handleChange={handleChange} type="text" autoFocus formData={formData}/>
+                  <Input name="companyName" label="Company Name" handleChange={handleChange} type="text"  formData={formData}/>
+                  <Input name="email" label="Email" handleChange={handleChange} type="email"  formData={formData}/>
+                  <Input name="phone" label="Phone Number" handleChange={handleChange} type="text" formData={formData}/>
 
                   <Grid item xs={12} >
                     <TextField name='message' variant='outlined' label="Message" fullWidth 

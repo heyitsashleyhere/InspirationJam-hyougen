@@ -152,7 +152,7 @@ export default function AboutUs() {
         <motion.section initial="offscreen" whileInView="onscreen" viewport={{ once: true, amount: 0.8 }} >
           <motion.div variants={leftVariants}
                       className="profile-pic">
-              <img src={process.env.PUBLIC_URL + '/assets/images/NadegeSquare.JPG'} alt="Kunal Sirsalewala" />
+              <img src={process.env.PUBLIC_URL + '/assets/images/NadegeSquare.JPG'} alt="Nadège Ngouah" />
           </motion.div>
           <motion.div variants={rightVariants} className="profile-text">
             <h3>Nadège Ngouah</h3>

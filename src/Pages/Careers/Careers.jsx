@@ -143,12 +143,12 @@ export default function Careers() {
         <Typography variant="h3" style={{textAlign: 'center', marginBottom: '1em'}}>We give you the canvas to paint the way you like it.</Typography>
         <Grid container spacing={2}>
           <>
-            <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half formData={formData}/>
-            <Input name="lastName" label="Last Name" handleChange={handleChange} autoFocus half formData={formData}/>
+            <Input name="firstName" label="First Name" handleChange={handleChange} half formData={formData}/>
+            <Input name="lastName" label="Last Name" handleChange={handleChange} half formData={formData}/>
           </>
-          <Input name="position" label="Position applying for" handleChange={handleChange} type="text" autoFocus formData={formData}/>
-          <Input name="email" label="Email Address " handleChange={handleChange} type="email" autoFocus formData={formData}/>
-          <Input name="portfolio" label="Portfolio Url" handleChange={handleChange} type="text" autoFocus formData={formData}/>
+          <Input name="position" label="Position applying for" handleChange={handleChange} type="text" formData={formData}/>
+          <Input name="email" label="Email Address " handleChange={handleChange} type="email" formData={formData}/>
+          <Input name="portfolio" label="Portfolio Url" handleChange={handleChange} type="text" formData={formData}/>
           <Grid item xs={12} >
             <label htmlFor="contained-button-file" style={{display: "flex", justifyContent: "flex-start", alignItems: "center"}}>
               <FileInput accept="image/*" id="contained-button-file" multiple type="file" />
