@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Chip, IconButton, Stack } from '@mui/material'
+import { useNavigate } from "react-router-dom";
 import './Services.scss'
 import { Link } from 'react-router-dom'
 
@@ -13,6 +14,7 @@ export default function Services() {
     "Wire-framing", "DNS Management", "Frontend Frameworks", "Backend Frameworks", "UX & UI", "Responsive Design"
   ]
 
+  let navigate = useNavigate();
 
   const leftVariants = {
     offscreen: {
@@ -70,6 +72,11 @@ export default function Services() {
     }
   }
 
+  function handleLink() {
+    navigate('/contactUs')
+  }
+  
+
   return (
     <motion.div className="Services">
       <motion.section initial="offscreen" whileInView="onscreen" viewport={{ once: true, amount: 0.8 }} >
@@ -109,11 +116,11 @@ export default function Services() {
             ))}
           </Stack>
 
-          <Link to="/contactUs">
+          <div className="contactUs" onClick={handleLink}>
             <div className="cta-wrapper">    
                 <p>Get your free consultation</p>
             </div>
-          </Link>
+          </div>
           
         </motion.div>
       </motion.section>
@@ -147,11 +154,11 @@ export default function Services() {
             ))}
           </Stack>
           
-          <Link to="contactUs">
+          <div className="contactUs" onClick={handleLink}>
             <div className="cta-wrapper">
                 <p>Get your free consultation</p>
             </div>
-          </Link>
+          </div>
         </motion.div>
 
       </motion.section>

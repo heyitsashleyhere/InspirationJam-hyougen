@@ -98,13 +98,11 @@
             }
 
 
-            a {
+            .contactUs {
                 color: #D80A93;
                 text-decoration: none;
                 font-size: 2rem;
-                &:visited {
-                    color: #D80A93;
-                }
+                cursor: pointer;
 
                 .cta-wrapper {
                     margin-top: 2em;

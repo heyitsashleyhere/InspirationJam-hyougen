@@ -51,34 +51,6 @@ export default function AboutUs() {
     }
   }
 
-  // const mainVariants = {
-  //   offscreen: {
-  //     y: -300
-  //   },
-  //   onscreen: {
-  //     y: 0,
-  //     transition: {
-  //       type: "spring",
-  //       bounce: 0.4,
-  //       duration: 0.8
-  //     }
-  //   }
-  // }
-
-  // const subVariants = {
-  //   offscreen: {
-  //     y: 300
-  //   },
-  //   onscreen: {
-  //     y: 0,
-  //     transition: {
-  //       type: "spring",
-  //       bounce: 0.4,
-  //       duration: 0.8
-  //     }
-  //   }
-  // }
-
   return (
     <motion.div className="AboutUs">
       <motion.div className="main"
