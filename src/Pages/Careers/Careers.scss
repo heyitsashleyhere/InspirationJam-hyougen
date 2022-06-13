@@ -23,12 +23,6 @@
     .section {
         margin: 1rem;
 
-        padding: 2em;
-
-        @media all and (min-width: 600px) {
-            padding: 2em 20em;
-        }
-
         .button-wrapper {
             text-align: center;
             .button {
@@ -39,11 +33,7 @@
     }
 
     form {
-        padding: 2em;
-
-        @media all and (min-width: 600px) {
-            padding: 2em 20em;
-        }
+        margin: 0 2em;
     }
 
 }
