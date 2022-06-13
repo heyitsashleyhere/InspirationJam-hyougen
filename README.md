@@ -13,9 +13,9 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Team Members](#team-members)
   - [Built With](#built-with)
-- [How to use](#how-to-use)
-- [Contact](#contact)
+
 
 <!-- OVERVIEW -->
 
