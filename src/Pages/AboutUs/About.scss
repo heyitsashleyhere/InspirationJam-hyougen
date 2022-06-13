@@ -1,0 +1,128 @@
+.AboutUs {
+
+    .main {
+        padding: 4em 1em;
+        text-align: center;
+        background-color: #D80A93;
+
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.6em;
+            .key-words {
+                font-weight: 600;
+                color: #FDF9F5;
+            }
+        }
+
+        .service-wrapper {
+            flex-wrap: wrap;
+            gap: 2em;
+            .service {
+                border-radius: 25px;
+                background-color: #FDF9F5;
+                color: #D80A93;
+                font-size: 1.6em;
+                padding: 0.5em;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
+    .sub {
+        padding: 6em;
+
+        h1 {
+            margin-bottom: 1em;
+        }
+        #mission {
+            font-weight: 600;
+            color: #FDF9F5;
+            font-size: 500%;
+        }
+
+    }
+
+    .team {
+        section {
+            display: flex;
+            flex-direction: column;
+
+            @media all and (min-width: 600px) {
+                // height: 30vh;
+                flex-direction: row;
+            }
+    
+            .profile-pic {
+                max-width: 100%;
+                background-color: #FDF9F5;
+                overflow:hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:nth-child(2) {
+                    background-color: #D80A93;
+                }
+                img {
+                    width: 100%; 
+                }
+                @media all and (min-width: 600px) {
+                    max-width: 40%;
+                }
+            }
+    
+            .profile-text {
+                width: 100%;
+                padding: 6em;
+                background-color: #FDF9F5;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                h3 {
+                    font-size: 2em;
+                }
+                p {
+                    margin: 0.6em 0;
+                    font-size: 1em;
+                }
+                
+                a {
+                    width: 1.8em;
+                    height: 1.8em;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                svg {
+                    color: #D80A93;
+                }
+
+                @media all and (min-width: 600px) {
+                    width: 60%;
+                }
+            }
+    
+            .profile-text:nth-child(odd) {
+                background-color: #D80A93;
+                svg {
+                    color: #FDF9F5
+                }
+            }
+
+            &:nth-child(even){
+                flex-direction: column-reverse;
+                @media all and (min-width: 600px) {
+                    flex-direction: row;
+                }
+            }
+        }
+        
+    }
+
+}

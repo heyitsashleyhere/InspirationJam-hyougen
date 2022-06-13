@@ -1,0 +1,25 @@
+.Scroll-wrapper {
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        color: #28282899;
+        font-style: italic;
+    }
+    .scroll-icon {
+        font-size: 1.6em;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 1.6em;
+    }
+}
+
+.hide {
+    display: none;
+}

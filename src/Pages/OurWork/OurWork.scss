@@ -1,0 +1,89 @@
+.OurWork {
+    .main {
+        padding: 4em 1em;
+        text-align: center;
+        background-color: #D80A93;
+
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.6em;
+            .key-words {
+                font-weight: 600;
+                color: #FDF9F5;
+            }
+        }
+    }
+
+    .office-wrapper {
+        // height: 20vh;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+        @media all and (min-width: 600px) {
+            height: 85vh;
+        }
+    }
+
+    .industries-wrapper {
+        text-align: center;
+        padding: 1rem 1rem 5rem 1rem;
+        h2 {
+           margin: 2em auto 1em auto;
+           font-size: 3em; 
+        }
+        p {
+            font-size: 2em;
+            text-align: left;
+            margin-bottom: 1em;
+            // margin-left: 1rem;
+        }
+
+        .industries-list-wrapper {
+            margin: 0 3rem;
+        }
+    }
+
+    .work-img-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        div {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+
+        @media all and (min-width: 600px) {
+            flex-direction: row;
+            div {
+                width: 50%;
+                img {
+                    width: 100%;
+                    // margin: 0 0.5rem 2rem 0.5rem;
+                }
+            }
+
+        }
+
+    }
+
+    .testimonials-wrapper {
+        text-align: center;
+        padding: 1rem 1rem 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+           margin: 2em auto 1em auto;
+           font-size: 3em; 
+        }
+    }
+
+}
