@@ -21,7 +21,7 @@
 
 ## Overview
 
-<!-- ![demo](/public/assets/videos/demo.gif) -->
+![demo](/public/assets/videos/demo.gif)
 
 8 teams from 8 campuses...
 Teams consist of 2 Marketing Students, 2 Web Dev Students, 1 Marketing Mentor and 1 Web Dev Mentor!
